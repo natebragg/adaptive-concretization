@@ -550,6 +550,7 @@ generator bit literal(bit asst) {
 	return atom;
 }
 
+/*
 bit sll_inv(int v, bit asst) {
 	assert v>0 && v<LOCVARSIZE;
 	if (asst)
@@ -567,6 +568,7 @@ bit rsll_inv(int v, bit asst) {
 	if (treeness(locvars[v])) atom = rsll_comp(locvars[v]);
 	return atom;
 }
+*/
 
 bit disj_inv(int v1, int v2, bit asst) {
 	assert v1>0 && v1<LOCVARSIZE;
