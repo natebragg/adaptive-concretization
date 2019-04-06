@@ -1,0 +1,1 @@
+{"duration": 511.5488736629486, "input_args": {"path": "'benchmark/menu_demo'", "main": "'benchmark/menu_demo/sample.sk'", "iteration": "0", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

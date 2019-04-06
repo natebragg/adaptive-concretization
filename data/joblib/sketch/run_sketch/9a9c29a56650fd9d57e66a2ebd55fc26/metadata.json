@@ -1,0 +1,1 @@
+{"duration": 199.3569314479828, "input_args": {"path": "'benchmark/sygus_ar_sum'", "main": "'benchmark/sygus_ar_sum/array_sum_3_5.sk'", "iteration": "4", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '1', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

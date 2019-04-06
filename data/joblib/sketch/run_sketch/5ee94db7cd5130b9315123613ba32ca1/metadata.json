@@ -1,0 +1,1 @@
+{"duration": 445.8581986427307, "input_args": {"path": "'benchmark/list_min'", "main": "'benchmark/list_min/list_min.sk'", "iteration": "5", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '2', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

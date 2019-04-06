@@ -1,0 +1,1 @@
+{"duration": 50.055346965789795, "input_args": {"path": "'benchmark/list_prepend'", "main": "'benchmark/list_prepend/sll_prepend.sk'", "iteration": "1", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '8', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

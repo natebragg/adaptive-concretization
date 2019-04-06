@@ -1,0 +1,1 @@
+{"duration": 13.989786863327026, "input_args": {"path": "'benchmark/deriv2'", "main": "'benchmark/deriv2/demo2.py.sk'", "iteration": "3", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

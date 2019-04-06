@@ -1,0 +1,1 @@
+{"duration": 829.1116366386414, "input_args": {"path": "'benchmark/shoaib_2'", "main": "'benchmark/shoaib_2/advec_mom_kernel2.sk'", "iteration": "1", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

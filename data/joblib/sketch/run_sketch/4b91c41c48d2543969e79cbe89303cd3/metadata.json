@@ -1,0 +1,1 @@
+{"duration": 4.944272994995117, "input_args": {"path": "'benchmark/qbs_noti'", "main": "'benchmark/qbs_noti/NotificationServiceImpl2.sk'", "iteration": "0", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

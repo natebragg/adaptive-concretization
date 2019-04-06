@@ -1,0 +1,1 @@
+{"duration": 19.4319748878479, "input_args": {"path": "'benchmark/cg'", "main": "'benchmark/cg/CG.sk'", "iteration": "3", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '4', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

@@ -1,0 +1,1 @@
+{"duration": 2.987147808074951, "input_args": {"path": "'benchmark/qbs_noti'", "main": "'benchmark/qbs_noti/NotificationServiceImpl2.sk'", "iteration": "3", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '8', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

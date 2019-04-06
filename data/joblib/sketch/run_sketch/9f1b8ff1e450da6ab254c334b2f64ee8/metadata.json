@@ -1,0 +1,1 @@
+{"duration": 7.701780319213867, "input_args": {"path": "'benchmark/qbs_serv'", "main": "'benchmark/qbs_serv/ConcreteRoleAffectationService.sk'", "iteration": "2", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '2', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

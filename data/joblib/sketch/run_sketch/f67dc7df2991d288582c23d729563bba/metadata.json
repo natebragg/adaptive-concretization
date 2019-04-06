@@ -1,0 +1,1 @@
+{"duration": 1810.9646289348602, "input_args": {"path": "'benchmark/shoaib_2'", "main": "'benchmark/shoaib_2/advec_mom_kernel2.sk'", "iteration": "1", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '8', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

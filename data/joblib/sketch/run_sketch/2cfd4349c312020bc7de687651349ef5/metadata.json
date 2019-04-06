@@ -1,0 +1,1 @@
+{"duration": 12.031241655349731, "input_args": {"path": "'benchmark/menu_demo'", "main": "'benchmark/menu_demo/sample.sk'", "iteration": "2", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '8', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

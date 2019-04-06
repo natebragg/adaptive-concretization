@@ -1,0 +1,1 @@
+{"duration": 1057.0763397216797, "input_args": {"path": "'benchmark/list_min'", "main": "'benchmark/list_min/list_min.sk'", "iteration": "2", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

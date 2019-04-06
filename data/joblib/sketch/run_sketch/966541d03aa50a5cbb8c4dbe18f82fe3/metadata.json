@@ -1,0 +1,1 @@
+{"duration": 143.372864484787, "input_args": {"path": "'benchmark/qbs_serv'", "main": "'benchmark/qbs_serv/ConcreteRoleAffectationService.sk'", "iteration": "0", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

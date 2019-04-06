@@ -1,0 +1,1 @@
+{"duration": 1027.5211763381958, "input_args": {"path": "'benchmark/logcount'", "main": "'benchmark/logcount/logcount.sk'", "iteration": "2", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '1', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}
