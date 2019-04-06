@@ -2,3 +2,8 @@
 *
 # Except this file
 !.gitignore
+!joblib/
+!joblib/*
+!joblib/*/*
+!joblib/*/*/*
+!joblib/*/*/*/*
