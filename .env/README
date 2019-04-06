@@ -1,0 +1,8 @@
+To set up the virtual environment for the first time, run:
+$ .env/setup.sh
+
+To activate the virtual environment normally, run:
+$ source .env/bin/activate
+
+After adding new packages, commit the results from rerunning:
+$ pip freeze > .env/requirements.txt
