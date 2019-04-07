@@ -1,1 +1,0 @@
-{"duration": 32.029605865478516, "input_args": {"path": "'benchmark/log2'", "main": "'benchmark/log2/log2.sk'", "iteration": "1", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

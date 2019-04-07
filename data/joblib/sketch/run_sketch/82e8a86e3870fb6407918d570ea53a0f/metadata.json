@@ -1,1 +1,0 @@
-{"duration": 1800.7866780757904, "input_args": {"path": "'benchmark/logcount'", "main": "'benchmark/logcount/logcount.sk'", "iteration": "3", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

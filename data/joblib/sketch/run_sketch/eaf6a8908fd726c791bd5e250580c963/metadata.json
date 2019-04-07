@@ -1,1 +1,0 @@
-{"duration": 349.5612075328827, "input_args": {"path": "'benchmark/deriv3'", "main": "'benchmark/deriv3/demo3.py.sk'", "iteration": "2", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '4', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

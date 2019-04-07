@@ -1,0 +1,1 @@
+{"duration": 0.06335306167602539, "input_args": {"sketch_version": "'1.7.5'", "path": "'benchmark/sygus_ar_s_5'", "main": "'benchmark/sygus_ar_s_5/array_search_5.sk'", "iteration": "2", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '4', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "ntimes": "None"}}

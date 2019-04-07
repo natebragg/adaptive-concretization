@@ -1,0 +1,1 @@
+{"duration": 0.15621161460876465, "input_args": {"sketch_version": "'1.7.5'", "path": "'benchmark/deriv5'", "main": "'benchmark/deriv5/demo5.py.sk'", "iteration": "2", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '1', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "ntimes": "None"}}

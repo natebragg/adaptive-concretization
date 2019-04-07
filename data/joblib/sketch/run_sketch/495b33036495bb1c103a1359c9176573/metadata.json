@@ -1,1 +1,0 @@
-{"duration": 28.27482843399048, "input_args": {"path": "'benchmark/cg'", "main": "'benchmark/cg/CG.sk'", "iteration": "5", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

@@ -1,0 +1,1 @@
+{"duration": 0.020196199417114258, "input_args": {"sketch_version": "'1.7.5'", "path": "'benchmark/log2'", "main": "'benchmark/log2/log2.sk'", "iteration": "1", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

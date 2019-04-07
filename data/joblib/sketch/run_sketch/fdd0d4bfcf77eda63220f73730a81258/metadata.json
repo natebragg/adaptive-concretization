@@ -1,0 +1,1 @@
+{"duration": 0.06756591796875, "input_args": {"sketch_version": "'1.7.5'", "path": "'benchmark/sygus_ar_s_7'", "main": "'benchmark/sygus_ar_s_7/array_search_7.sk'", "iteration": "1", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

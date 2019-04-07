@@ -1,1 +1,0 @@
-{"duration": 179.4211139678955, "input_args": {"path": "'benchmark/reverse'", "main": "'benchmark/reverse/listReverse.sk'", "iteration": "4", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '4', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "timeout": "30", "ntimes": "None"}}

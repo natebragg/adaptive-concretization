@@ -1,12 +1,15 @@
-# first line: 19
-@memory.cache(ignore=['noisy', 'seed'])
-def run_sketch(path, main, iteration, noisy=False, extra=None,
+# first line: 43
+@memory.cache(ignore=['sketch_home', 'sketch_path', 'noisy', 'seed', 'timeout'])
+def run_sketch(sketch_version, sketch_home, sketch_path,
+               path, main, iteration, noisy=False, extra=None,
                mem=None, seed=None, par=False, ac=False,
                degree=None, timeout=None, ntimes=None):
+    os.environ['SKETCH_HOME'] = sketch_home
+    sketch = os.path.join(sketch_path, 'sketch')
     opt = lambda cond, *args: list(args) if cond else []
-    fe_timeout_supported = '--fe-timeout' in subprocess.getoutput('sketch --help')
+    fe_timeout_supported = '--fe-timeout' in subprocess.getoutput(sketch + ' --help')
     with tempfile.TemporaryDirectory() as tmp_dir:
-        cmd = ' '.join([            'sketch', main,
+        cmd = ([                    sketch, main,
                                     '--fe-inc', path,
                                     '--fe-tempdir', tmp_dir,
                                     '--fe-keep-tmp',
@@ -28,10 +31,12 @@ def run_sketch(path, main, iteration, noisy=False, extra=None,
         output = subprocess.getoutput(cmd)
         after = datetime.datetime.now()
         if noisy:
-            print('%s, iteration %d, runtime: %s' % (main, iteration, str(after - before)))
+            print('sketch %s: %s, iteration %d, runtime: %s' % (sketch_version, main, iteration, str(after - before)))
         return dict(ChainMap({
-            'cmd': cmd,
+            'cmd': ' '.join(cmd),
             'before': before,
             'after': after,
             'stdout': output,
+            'successful': successful(output) or 0 in exit_codes(output),
+            'cpu_time': cpu_time(output),
         }, *sketch_temp_files(tmp_dir)))

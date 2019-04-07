@@ -1,0 +1,1 @@
+{"duration": 0.01788163185119629, "input_args": {"sketch_version": "'1.7.5'", "path": "'benchmark/logcount'", "main": "'benchmark/logcount/logcount.sk'", "iteration": "3", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

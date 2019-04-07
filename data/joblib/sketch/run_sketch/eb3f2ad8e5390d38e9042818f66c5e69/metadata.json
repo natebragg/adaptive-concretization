@@ -1,1 +1,0 @@
-{"duration": 7.520897150039673, "input_args": {"path": "'benchmark/list_prepend'", "main": "'benchmark/list_prepend/sll_prepend.sk'", "iteration": "2", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}

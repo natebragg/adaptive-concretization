@@ -1,0 +1,1 @@
+{"duration": 0.24355864524841309, "input_args": {"sketch_version": "'1.7.5'", "path": "'benchmark/colorchooser_demo'", "main": "'benchmark/colorchooser_demo/sample.sk'", "iteration": "2", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

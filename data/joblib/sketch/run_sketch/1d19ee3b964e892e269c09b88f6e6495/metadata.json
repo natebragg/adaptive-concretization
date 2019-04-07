@@ -1,0 +1,1 @@
+{"duration": 15.249014139175415, "input_args": {"sketch_version": "'1.7.5'", "path": "'benchmark/shoaib_1'", "main": "'benchmark/shoaib_1/advec_mom_kernel1.sk'", "iteration": "0", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '8', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "ntimes": "None"}}

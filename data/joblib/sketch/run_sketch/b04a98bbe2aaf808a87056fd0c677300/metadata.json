@@ -1,1 +1,0 @@
-{"duration": 3.4226040840148926, "input_args": {"path": "'benchmark/sygus_ar_s_5'", "main": "'benchmark/sygus_ar_s_5/array_search_5.sk'", "iteration": "4", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "timeout": "30", "ntimes": "None"}}
