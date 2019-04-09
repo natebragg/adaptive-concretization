@@ -1,4 +1,4 @@
-# first line: 43
+# first line: 55
 @memory.cache(ignore=['sketch_home', 'sketch_path', 'noisy', 'seed', 'timeout'])
 def run_sketch(sketch_version, sketch_home, sketch_path,
                path, main, iteration, noisy=False, extra=None,
@@ -28,7 +28,7 @@ def run_sketch(sketch_version, sketch_home, sketch_path,
         + opt(extra,                *(extra or []))
         )
         before = datetime.datetime.now()
-        output = subprocess.getoutput(cmd)
+        output = getoutput(cmd, (timeout + 1) * 60) # timeout in minutes; give it 1 extra to timeout on its own.
         after = datetime.datetime.now()
         if noisy:
             print('sketch %s: %s, iteration %d, runtime: %s' % (sketch_version, main, iteration, str(after - before)))

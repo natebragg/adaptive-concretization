@@ -38,6 +38,31 @@ def sketch_temp_files(dir):
                 with open(os.path.join(path, fn)) as fd:
                     yield {fn: fd.read()}
 
+def getoutput(cmd, timeout):
+    """Exactly like subprocess.getoutput, except with a timeout."""
+    with subprocess.Popen(cmd, universal_newlines=True,
+                          stderr=subprocess.STDOUT,
+                          stdout=subprocess.PIPE) as process:
+        try:
+            stdout, = process.communicate(timeout=timeout)
+        except subprocess.TimeoutExpired:
+            process.kill()
+            try:
+                stdout, = process.communicate(timeout=1)
+            except subprocess.TimeoutExpired:
+                # Fragile; see CPython issues 30154 and 26534
+                if process.stdout and process._fileobj2output:
+                    stdout = process._translate_newlines(
+                                b''.join(process._fileobj2output[process.stdout]),
+                                process.stdout.encoding, process.stdout.errors)
+        except:
+            process.kill()
+            process.wait()
+            raise
+    if stdout[-1:] == '\n':
+        stdout = stdout[:-1]
+    return stdout
+
 # To force refresh, instead of run_sketch(...),
 # use run_sketch.call(...)[0]
 @memory.cache(ignore=['sketch_home', 'sketch_path', 'noisy', 'seed', 'timeout'])
@@ -69,7 +94,7 @@ def run_sketch(sketch_version, sketch_home, sketch_path,
         + opt(extra,                *(extra or []))
         )
         before = datetime.datetime.now()
-        output = subprocess.getoutput(cmd)
+        output = getoutput(cmd, (timeout + 1) * 60) # timeout in minutes; give it 1 extra to timeout on its own.
         after = datetime.datetime.now()
         if noisy:
             print('sketch %s: %s, iteration %d, runtime: %s' % (sketch_version, main, iteration, str(after - before)))
