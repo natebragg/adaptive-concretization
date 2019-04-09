@@ -44,11 +44,11 @@ def getoutput(cmd, timeout):
                           stderr=subprocess.STDOUT,
                           stdout=subprocess.PIPE) as process:
         try:
-            stdout, = process.communicate(timeout=timeout)
+            stdout, _ = process.communicate(timeout=timeout)
         except subprocess.TimeoutExpired:
             process.kill()
             try:
-                stdout, = process.communicate(timeout=1)
+                stdout, _ = process.communicate(timeout=1)
             except subprocess.TimeoutExpired:
                 # Fragile; see CPython issues 30154 and 26534
                 if process.stdout and process._fileobj2output:
