@@ -1,0 +1,1 @@
+{"duration": 561.2116894721985, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/colorchooser_demo'", "main": "'benchmark/colorchooser_demo/sample.sk'", "iteration": "4", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '8', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "ntimes": "None"}}

@@ -1,0 +1,1 @@
+{"duration": 926.5217683315277, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/logcount'", "main": "'benchmark/logcount/logcount.sk'", "iteration": "2", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '8', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "ntimes": "None"}}

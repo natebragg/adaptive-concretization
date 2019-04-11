@@ -1,0 +1,1 @@
+{"duration": 1806.8595328330994, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/button_demo'", "main": "'benchmark/button_demo/sample.sk'", "iteration": "1", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

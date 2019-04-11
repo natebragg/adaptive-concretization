@@ -1,0 +1,1 @@
+{"duration": 858.8889904022217, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/button_demo'", "main": "'benchmark/button_demo/sample.sk'", "iteration": "5", "extra": "['--slv-strategy', 'WILCOXON', '--slv-p-cpus', '4', '--slv-p-trials', '3072']", "mem": "None", "par": "True", "ac": "True", "degree": "None", "ntimes": "None"}}

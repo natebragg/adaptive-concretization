@@ -1,0 +1,1 @@
+{"duration": 7.971783876419067, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/deriv5'", "main": "'benchmark/deriv5/demo5.py.sk'", "iteration": "3", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

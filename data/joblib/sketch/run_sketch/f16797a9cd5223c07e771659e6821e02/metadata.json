@@ -1,0 +1,1 @@
+{"duration": 663.0748262405396, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/reverse'", "main": "'benchmark/reverse/listReverse.sk'", "iteration": "3", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

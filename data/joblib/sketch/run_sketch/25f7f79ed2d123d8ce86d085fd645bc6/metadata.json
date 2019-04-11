@@ -1,0 +1,1 @@
+{"duration": 11.521740674972534, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/cg'", "main": "'benchmark/cg/CG.sk'", "iteration": "4", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

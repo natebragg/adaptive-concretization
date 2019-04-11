@@ -1,0 +1,1 @@
+{"duration": 490.7607226371765, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/sygus_ar_sum'", "main": "'benchmark/sygus_ar_sum/array_sum_3_5.sk'", "iteration": "0", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

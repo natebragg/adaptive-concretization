@@ -1,0 +1,1 @@
+{"duration": 48.23734164237976, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/sygus_hd_13_d5'", "main": "'benchmark/sygus_hd_13_d5/hd_13_d5.sk'", "iteration": "2", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}

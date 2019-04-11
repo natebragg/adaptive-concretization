@@ -1,0 +1,1 @@
+{"duration": 99.3760175704956, "input_args": {"sketch_version": "'1.6.9'", "path": "'benchmark/list_prepend'", "main": "'benchmark/list_prepend/sll_prepend.sk'", "iteration": "0", "extra": "None", "mem": "34359738368", "par": "False", "ac": "False", "degree": "None", "ntimes": "None"}}
